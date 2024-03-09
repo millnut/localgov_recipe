@@ -65,12 +65,12 @@ config:
     localgov_page_components: '*'
     # localgov_paragraphs: '*' dependent on install profile
     localgov_roles: '*'
-    localgov_search_solr: '*'
-    localgov_services: '*'
-    localgov_services_landing: '*'
-    localgov_services_navigation: '*'
-    localgov_services_page: '*'
-    # localgov_services_sublanding: '*' dependent on localgov_paragraphs
+    # localgov_search_solr: '*'
+    # localgov_services: '*'
+    # localgov_services_landing: '*'
+    # localgov_services_navigation: '*'
+    # localgov_services_page: '*'
+    # localgov_services_sublanding: '*'
   actions:
     # Set and unset Gin blocks.
     block.block.gin_admin:
