@@ -63,11 +63,20 @@ config:
     block.block.gin_tools:
       simple_config_update:
         status: false
-    # Update gin admin theme settings
+    # Update core date settings
+    core.date_format.long:
+      simple_config_update:
+        pattern: 'l j F Y \a\t g:ia'
+    core.date_format.medium:
+      simple_config_update:
+        pattern: 'D d/m/Y g:ia'
+    core.date_format.short:
+      simple_config_update:
+        pattern: 'd/m/Y g:ia'
+    # Update the admin theme to Gin in Theme settings.
     gin.settings:
       simple_config_update:
         classic_toolbar: horizontal
-    # Update the admin theme to Gin in Theme settings.
     node.settings:
       simple_config_update:
         use_admin_theme: true
