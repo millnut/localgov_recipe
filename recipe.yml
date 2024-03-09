@@ -11,26 +11,37 @@ install:
   # Install Toolbar as it is a dependency of Gin Toolbar.
   - toolbar
   - admin_toolbar
-  - admin_toolbar_search
   - admin_toolbar_tools
   # Install Gin theme and base modules that extend it.
   - gin
   - gin_login
   - gin_toolbar
-  # LocalGov Drupal
-  - localgov
-  - localgov_search_solr
-  # Other contrib dependencies.
+  # Contrib
+  - entity_browser
+  - preview_link
+  - simple_sitemap
   - redirect
+  # LocalGov Drupal
+  - localgov_base
+  - localgov_scarfolk
+  - localgov_menu_link_group
+  - localgov_core
+  - localgov_media
+  - localgov_page_components
+  - localgov_paragraphs
+  - localgov_roles
+  - localgov_admin_theme_improvements
+  - localgov_search_solr
+  - localgov_services
+  - localgov_services_landing
+  - localgov_services_navigation
+  - localgov_services_page
+  - localgov_services_sublanding
 
 config:
   import:
-    # Import all of Admin Toolbar's modules config.
     admin_toolbar: '*'
-    admin_toolbar_search: '*'
     admin_toolbar_tools: '*'
-    # Import all of Gin and Gin Login's config.
-    # Gin Toolbar does not have any config.
     gin:
       - gin.settings
       - block.block.gin_breadcrumbs
@@ -88,3 +99,4 @@ config:
     system.theme:
       simple_config_update:
         admin: gin
+        default: localgov_scarfolk
