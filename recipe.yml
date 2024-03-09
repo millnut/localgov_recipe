@@ -60,10 +60,10 @@ config:
     localgov_scarfolk: '*'
     localgov_admin_theme_improvements: '*'
     localgov_core: '*'
-    # localgov_media: '*' dependent on install profile
+    localgov_media: '*'
     localgov_menu_link_group: '*'
-    # localgov_page_components: '*'
-    # localgov_paragraphs: '*' dependent on install profile
+    localgov_page_components: '*'
+    localgov_paragraphs: '*'
     localgov_roles: '*'
     # localgov_search_solr: '*'
     # localgov_services: '*'
