@@ -63,6 +63,9 @@ config:
     block.block.gin_tools:
       simple_config_update:
         status: false
+    # Update gin admin theme settings
+    gin.settings:
+      classic_toolbar: horizontal
     # Update the admin theme to Gin in Theme settings.
     node.settings:
       simple_config_update:
