@@ -1,0 +1,19 @@
+{
+    "name": "drupal_recipe/localgovdrupal_recipe",
+    "description": "Installs and configures LocalGov Drupal and supporting base modules.",
+    "keywords": ["recipe", "Drupal recipes", "drupal recipe"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Lee Mills",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/admin_toolbar": "*",
+        "drupal/gin": "*",
+        "drupal/gin_login": "*",
+        "drupal/gin_toolbar": "*"
+    }
+}
