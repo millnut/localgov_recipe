@@ -1,5 +1,5 @@
 {
-    "name": "drupal_recipe/localgovdrupal_recipe",
+    "name": "millnut/localgovdrupal_recipe",
     "description": "Installs and configures LocalGov Drupal and supporting base modules.",
     "keywords": ["recipe", "Drupal recipes", "drupal recipe"],
     "type": "drupal-recipe",
