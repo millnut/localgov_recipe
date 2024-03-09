@@ -18,6 +18,7 @@ install:
   - gin_toolbar
   # Contrib
   - entity_browser
+  - paragraphs
   - preview_link
   - simple_sitemap
   - redirect
@@ -43,6 +44,7 @@ config:
     admin_toolbar: '*'
     admin_toolbar_tools: '*'
     entity_browser: '*'
+    paragraphs: '*'
     preview_link: '*'
     simple_sitemap: '*'
     redirect: '*'
@@ -62,8 +64,8 @@ config:
     localgov_core: '*'
     localgov_media: '*'
     localgov_menu_link_group: '*'
-    localgov_page_components: '*'
-    localgov_paragraphs: '*'
+    # localgov_page_components: '*'
+    # localgov_paragraphs: '*'
     localgov_roles: '*'
     # localgov_search_solr: '*'
     # localgov_services: '*'
