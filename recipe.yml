@@ -17,6 +17,9 @@ install:
   - gin
   - gin_login
   - gin_toolbar
+  # LocalGov Drupal
+  - localgov
+  - localgov_search_solr
   # Other contrib dependencies.
   - redirect
 
