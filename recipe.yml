@@ -62,7 +62,7 @@ config:
     localgov_core: '*'
     # localgov_media: '*' dependent on install profile
     localgov_menu_link_group: '*'
-    localgov_page_components: '*'
+    # localgov_page_components: '*'
     # localgov_paragraphs: '*' dependent on install profile
     localgov_roles: '*'
     # localgov_search_solr: '*'
