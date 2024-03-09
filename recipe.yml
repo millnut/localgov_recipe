@@ -24,13 +24,13 @@ install:
   # LocalGov Drupal
   - localgov_base
   - localgov_scarfolk
-  - localgov_menu_link_group
+  - localgov_admin_theme_improvements
   - localgov_core
   - localgov_media
+  - localgov_menu_link_group
   - localgov_page_components
   - localgov_paragraphs
   - localgov_roles
-  - localgov_admin_theme_improvements
   - localgov_search_solr
   - localgov_services
   - localgov_services_landing
@@ -42,6 +42,10 @@ config:
   import:
     admin_toolbar: '*'
     admin_toolbar_tools: '*'
+    entity_browser: '*'
+    preview_link: '*'
+    simple_sitemap: '*'
+    redirect: '*'
     gin:
       - gin.settings
       - block.block.gin_breadcrumbs
@@ -52,6 +56,21 @@ config:
       - block.block.gin_page_title
       - block.block.gin_primary_local_tasks
     gin_login: '*'
+    localgov_base: '*'
+    localgov_scarfolk: '*'
+    localgov_admin_theme_improvements: '*'
+    localgov_core: '*'
+    localgov_media: '*'
+    localgov_menu_link_group: '*'
+    localgov_page_components: '*'
+    localgov_paragraphs: '*'
+    localgov_roles: '*'
+    localgov_search_solr: '*'
+    localgov_services: '*'
+    localgov_services_landing: '*'
+    localgov_services_navigation: '*'
+    localgov_services_page: '*'
+    localgov_services_sublanding: '*'
   actions:
     # Set and unset Gin blocks.
     block.block.gin_admin:
