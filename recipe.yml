@@ -17,6 +17,8 @@ install:
   - gin
   - gin_login
   - gin_toolbar
+  # Other contrib dependencies.
+  - redirect
 
 config:
   import:
