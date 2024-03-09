@@ -12,11 +12,6 @@
     ],
     "require": {
         "drupal/core": "^10.0",
-        "drupal/admin_toolbar": "*",
-        "drupal/gin": "*",
-        "drupal/gin_login": "*",
-        "drupal/gin_toolbar": "*",
-        "drupal/redirect": "^1.9",
         "localgovdrupal/localgov": "^3.0",
         "localgovdrupal/localgov_search_solr": "^1.1"
     }
