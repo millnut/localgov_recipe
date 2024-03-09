@@ -62,7 +62,7 @@ config:
     localgov_scarfolk: '*'
     localgov_admin_theme_improvements: '*'
     localgov_core: '*'
-    localgov_login_redirect: '*'
+    # localgov_login_redirect: '*' is part of install profile
     localgov_media: '*'
     localgov_menu_link_group: '*'
     # localgov_page_components: '*'
