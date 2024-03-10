@@ -5,20 +5,26 @@ type: 'Site'
 install:
   # Install core dependencies.
   - config
+  - ckeditor5
+  - editor
+  - image
   - help
-  # Install Claro as it is a dependency of Gin, but don't import config.
+  - media
+  - media_library
+  - views
+  # Install admin theme
   - claro
-  # Install Toolbar as it is a dependency of Gin Toolbar.
   - toolbar
   - admin_toolbar
   - admin_toolbar_tools
-  # Install Gin theme and base modules that extend it.
   - gin
   - gin_login
   - gin_toolbar
   # Contrib
   - entity_browser
+  - linkit
   - paragraphs
+  - paragraphs_library
   - preview_link
   - simple_sitemap
   - redirect
@@ -27,11 +33,11 @@ install:
   - localgov_scarfolk
   - localgov_admin_theme_improvements
   - localgov_core
-  # - localgov_login_redirect
-  # - localgov_media
+  # - localgov_login_redirect // part of install profile
+  - localgov_media
   - localgov_menu_link_group
   - localgov_page_components
-  # - localgov_paragraphs
+  - localgov_paragraphs
   - localgov_roles
   - localgov_topics
   # - localgov_services
@@ -42,10 +48,16 @@ install:
 
 config:
   import:
+    editor: '*'
+    image: '*'
+    media: '*'
+    media_library: '*'
     admin_toolbar: '*'
     admin_toolbar_tools: '*'
     entity_browser: '*'
+    linkit: '*'
     paragraphs: '*'
+    paragraphs_library: '*'
     preview_link: '*'
     simple_sitemap: '*'
     redirect: '*'
@@ -63,11 +75,11 @@ config:
     localgov_scarfolk: '*'
     localgov_admin_theme_improvements: '*'
     localgov_core: '*'
-    # localgov_login_redirect: '*' is part of install profile
-    # localgov_media: '*'
+    # localgov_login_redirect: '*' // part of install profile
+    localgov_media: '*'
     localgov_menu_link_group: '*'
     localgov_page_components: '*'
-    # localgov_paragraphs: '*'
+    localgov_paragraphs: '*'
     localgov_roles: '*'
     localgov_topics: '*'
     # localgov_services: '*'
