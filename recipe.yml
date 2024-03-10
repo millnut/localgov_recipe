@@ -28,16 +28,16 @@ install:
   - localgov_admin_theme_improvements
   - localgov_core
   # - localgov_login_redirect
-  - localgov_media
+  # - localgov_media
   - localgov_menu_link_group
   - localgov_page_components
-  - localgov_paragraphs
+  # - localgov_paragraphs
   - localgov_roles
-  - localgov_services
-  - localgov_services_landing
-  - localgov_services_navigation
-  - localgov_services_page
-  - localgov_services_sublanding
+  # - localgov_services
+  # - localgov_services_landing
+  # - localgov_services_navigation
+  # - localgov_services_page
+  # - localgov_services_sublanding
 
 config:
   import:
@@ -65,7 +65,7 @@ config:
     # localgov_login_redirect: '*' is part of install profile
     # localgov_media: '*'
     localgov_menu_link_group: '*'
-    # localgov_page_components: '*'
+    localgov_page_components: '*'
     # localgov_paragraphs: '*'
     localgov_roles: '*'
     localgov_topics: '*'
