@@ -5,8 +5,6 @@ type: 'Site'
 install:
   # Install core dependencies.
   - config
-  - ckeditor5
-  - image
   - help
   - media
   - media_library
