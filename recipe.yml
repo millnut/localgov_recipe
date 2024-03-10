@@ -33,6 +33,7 @@ install:
   - localgov_page_components
   # - localgov_paragraphs
   - localgov_roles
+  - localgov_topics
   # - localgov_services
   # - localgov_services_landing
   # - localgov_services_navigation
