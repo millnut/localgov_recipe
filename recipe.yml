@@ -6,7 +6,6 @@ install:
   # Install core dependencies.
   - config
   - ckeditor5
-  - editor
   - image
   - help
   - media
@@ -22,7 +21,6 @@ install:
   - gin_toolbar
   # Contrib
   - entity_browser
-  - linkit
   - paragraphs
   - paragraphs_library
   - preview_link
@@ -48,13 +46,11 @@ install:
 
 config:
   import:
-    editor: '*'
     media: '*'
     media_library: '*'
     admin_toolbar: '*'
     admin_toolbar_tools: '*'
     entity_browser: '*'
-    linkit: '*'
     paragraphs: '*'
     paragraphs_library: '*'
     preview_link: '*'
