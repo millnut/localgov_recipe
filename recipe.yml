@@ -49,7 +49,6 @@ install:
 config:
   import:
     editor: '*'
-    image: '*'
     media: '*'
     media_library: '*'
     admin_toolbar: '*'
