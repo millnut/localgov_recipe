@@ -13,6 +13,9 @@ Follow the [Configuring Drupal to Apply Recipes documentation ](https://git.drup
 
 ## Installing
 
+> [!CAUTION]
+> This recipe is experimental and should not be installed in production environments.
+
 - Start with a Drupal 10 site.
 - Install the 'Minimal' profile.
 - Apply the recipe
