@@ -2,10 +2,10 @@
 
 This recipe is designed to do the following:
 
-- Install certain parts of Minimal install profile that we want
-- Disable core modules we don't want
+- Install core modules that we want
+- Set specific core configuration
 - Set specific contributed module configuration
-- Install and setup base LocalGov Drupal modules
+- Install and setup base LocalGov Drupal modules and configuration
 
 ## Installing
 
