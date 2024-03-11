@@ -1,7 +1,8 @@
 ## LocalGov Drupal Recipe
 
 > [!CAUTION]
-> This recipe is experimental and things will break and/or not work from time to time. This should not be installed in production environments.
+> This recipe and the Drupal Recipes functionlaity are experimental and still under development.
+> Things will break and/or not work from time to time. This should not be installed in production environments.
 
 This recipe is designed to do the following:
 
