@@ -31,7 +31,7 @@ Add the recipe by adding the repository;
 Then run the following composer require;
 
 ```shell
-composer reqire millnut/localgovdrupal_recipe
+composer require millnut/localgovdrupal_recipe
 ```
 
 ## Installing
