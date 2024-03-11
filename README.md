@@ -7,6 +7,10 @@ This recipe is designed to do the following:
 - Set specific contributed module configuration
 - Install and setup base LocalGov Drupal modules and configuration
 
+## Configuring Drupal to Apply Recipes
+
+Follow the [Configuring Drupal to Apply Recipes documentation ](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/getting_started.md#getting-started-configuring-drupal-to-apply-recipes)
+
 ## Installing
 
 - Start with a Drupal 10 site.
