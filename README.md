@@ -44,8 +44,9 @@ The recipe can be applied with PHP. Note that `core/scripts/drupal` must be
 executable with `chmod +x`.
 
 > [!WARNING]
-> This recipe is experimental. When installing there is no rollback or recovery process should anything go wrong. Ensure
-> you are installing on a local environment or sandbox/throwaway environment and have taken sufficient backups before installing.
+> The Drupal Recipes functionality and this recipe are experimental. When installing there is no rollback or
+> recovery process should anything go wrong. Ensure you are installing on a local environment or
+> sandbox/throwaway environment and have taken sufficient backups before installing.
 
 ```shell
 php core/scripts/drupal recipe recipes/contrib/localgovdrupal_recipe
