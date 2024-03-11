@@ -14,6 +14,26 @@ This recipe is designed to do the following:
 
 Follow the [Configuring Drupal to Apply Recipes documentation ](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/getting_started.md#getting-started-configuring-drupal-to-apply-recipes)
 
+## Add recipe to composer.json
+
+Add the recipe by adding the repository;
+
+```
+"repositories": [
+  ...
+  {
+    "type": "vcs",
+    "url": "https://github.com/millnut/
+  }
+]
+```
+
+Then run the following composer require;
+
+```shell
+composer reqire millnut/localgovdrupal_recipe
+```
+
 ## Installing
 
 - Start with a Drupal 10 site.
