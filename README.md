@@ -1,5 +1,8 @@
 ## LocalGov Drupal Recipe
 
+> [!CAUTION]
+> This recipe is experimental and should not be installed in production environments.
+
 This recipe is designed to do the following:
 
 - Install core modules that we want
@@ -12,9 +15,6 @@ This recipe is designed to do the following:
 Follow the [Configuring Drupal to Apply Recipes documentation ](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/getting_started.md#getting-started-configuring-drupal-to-apply-recipes)
 
 ## Installing
-
-> [!CAUTION]
-> This recipe is experimental and should not be installed in production environments.
 
 - Start with a Drupal 10 site.
 - Install the 'Minimal' profile.
