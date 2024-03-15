@@ -22,6 +22,7 @@ install:
   - gin_toolbar
   # Contrib
   - entity_browser
+  - linkit
   - paragraphs
   - paragraphs_library
   - preview_link
@@ -33,7 +34,7 @@ install:
   - localgov_admin_theme_improvements
   - localgov_core
   # - localgov_login_redirect // part of install profile
-  # - localgov_media // causing recipe error
+  - localgov_media
   - localgov_menu_link_group
   - localgov_page_components
   - localgov_paragraphs
@@ -56,6 +57,7 @@ config:
     admin_toolbar: '*'
     admin_toolbar_tools: '*'
     entity_browser: '*'
+    linkit: '*'
     paragraphs: '*'
     paragraphs_library: '*'
     preview_link: '*'
@@ -77,7 +79,7 @@ config:
     localgov_admin_theme_improvements: '*'
     localgov_core: '*'
     # localgov_login_redirect: '*'
-    # localgov_media: '*'
+    localgov_media: '*'
     localgov_menu_link_group: '*'
     localgov_page_components: '*'
     localgov_paragraphs: '*'
