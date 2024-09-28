@@ -29,6 +29,7 @@ install:
   # LocalGov Drupal
   - localgov_base
   - localgov_scarfolk
+  - localgov_admin_role
   - localgov_admin_theme_improvements
   - localgov_core
   # - localgov_login_redirect // part of install profile
@@ -62,6 +63,7 @@ config:
     # LocalGov Drupal
     localgov_base: '*'
     localgov_scarfolk: '*'
+    localgov_admin_role: '*'
     localgov_admin_theme_improvements: '*'
     localgov_core: '*'
     # localgov_login_redirect: '*'
