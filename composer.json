@@ -12,6 +12,7 @@
     ],
     "require": {
         "drupal/core": "^10.0",
+        "millnut/localgovdrupal_admin_theme": "*",
         "localgovdrupal/localgov": "^3.0",
         "localgovdrupal/localgov_search_solr": "^1.1"
     }
