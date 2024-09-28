@@ -15,8 +15,6 @@ install:
   - media
   - media_library
   - views
-  # Admin theme
-  - claro
   - toolbar
   # Contrib
   - entity_browser
