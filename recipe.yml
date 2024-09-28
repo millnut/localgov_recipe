@@ -2,6 +2,9 @@ name: 'LocalGov Drupal'
 description: 'Installs and configures LocalGov Drupal and supporting modules.'
 type: 'Site'
 
+recipes:
+  - localgov_admin_theme
+
 install:
   # Core
   - ckeditor5
@@ -15,11 +18,6 @@ install:
   # Admin theme
   - claro
   - toolbar
-  - admin_toolbar
-  - admin_toolbar_tools
-  - gin
-  - gin_login
-  - gin_toolbar
   # Contrib
   - entity_browser
   - linkit
@@ -54,8 +52,6 @@ config:
     media: '*'
     media_library: '*'
     # Contrib
-    admin_toolbar: '*'
-    admin_toolbar_tools: '*'
     entity_browser: '*'
     linkit: '*'
     paragraphs: '*'
@@ -63,16 +59,6 @@ config:
     preview_link: '*'
     simple_sitemap: '*'
     redirect: '*'
-    gin:
-      - gin.settings
-      - block.block.gin_breadcrumbs
-      - block.block.gin_content
-      - block.block.gin_help
-      - block.block.gin_local_actions
-      - block.block.gin_messages
-      - block.block.gin_page_title
-      - block.block.gin_primary_local_tasks
-    gin_login: '*'
     # LocalGov Drupal
     localgov_base: '*'
     localgov_scarfolk: '*'
@@ -91,32 +77,6 @@ config:
     # localgov_services_page: '*'
     # localgov_services_sublanding: '*'
   actions:
-    # Set and unset Gin blocks.
-    block.block.gin_admin:
-      simple_config_update:
-        status: false
-    block.block.gin_branding:
-      simple_config_update:
-        status: false
-    block.block.gin_local_actions:
-      simple_config_update:
-        region: content
-        weight: -10
-    block.block.gin_local_tasks:
-      simple_config_update:
-        status: false
-    block.block.gin_page_title:
-      simple_config_update:
-        region: header
-        weight: -10
-    block.block.gin_primary_local_tasks:
-      simple_config_update:
-        region: header
-        weight: -5
-        settings.secondary: true
-    block.block.gin_tools:
-      simple_config_update:
-        status: false
     # Update core date settings
     core.date_format.long:
       simple_config_update:
@@ -127,14 +87,9 @@ config:
     core.date_format.short:
       simple_config_update:
         pattern: 'd/m/Y g:ia'
-    # Update the admin theme to Gin in Theme settings.
-    gin.settings:
-      simple_config_update:
-        classic_toolbar: horizontal
     node.settings:
       simple_config_update:
         use_admin_theme: true
     system.theme:
       simple_config_update:
-        admin: gin
         default: localgov_scarfolk

@@ -10,9 +10,16 @@
             "role": "Maintainer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/millnut/localgov_admin_theme"
+        }
+    ],
     "require": {
         "drupal/core": "^10.0",
         "localgovdrupal/localgov": "^3.0",
-        "localgovdrupal/localgov_search_solr": "^1.1"
+        "localgovdrupal/localgov_search_solr": "^1.1",
+        "millnut/localgov_admin_theme": "dev-main"
     }
 }
