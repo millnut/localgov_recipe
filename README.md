@@ -28,6 +28,10 @@ Add the recipe by adding the repository;
   },
   {
     "type": "vcs",
+    "url": "https://github.com/millnut/localgov_base"
+  },
+  {
+    "type": "vcs",
     "url": "https://github.com/millnut/localgov_admin_theme"
   }
 ]
